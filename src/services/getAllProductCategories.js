@@ -1,13 +1,19 @@
-export default function getAllProductCategories(){
-  return  [   {
-      id: 'FMEN',
-      slug: 'men-shoes',
-      name: `Men's Shoes`
+export default function getAllProductCategories() {
+  return [
+    {
+      id: 'KIDS',
+      slug: 'kids-toys',
+      name: 'Kids Toys'
     },
     {
-      id: 'FWMEN',
-      slug: 'women-shoes',
-      name: `Women's Shoes`
+      id: 'TEEN',
+      slug: 'teen-toys',
+      name: 'Teen Toys'
     },
+    {
+      id: 'ADULT',
+      slug: 'adult-toys',
+      name: 'Adult Toys'
+    }
   ]
 }
